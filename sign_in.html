@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>OUSSAMA Market</title>
+    
+</head>
+<body style="background-color: hsl(0, 0%, 96%)">
+    <div class="container-fluid">
+        <nav class="navbar container-fluid  navbar-expand-lg bg-dark navbar-dark gap-2 sticky-top mb-3">
+          <div class="navbar-brand"><a style="font-family: cursive;" href="index.html" class="nav-link">OUSSAMA STORE</a></div>
+            <div class="navbar-toggler" data-bs-target="#aaa" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </div>
+            <div class="navbar-collapse w-100 justify-content-end collapse" id="aaa">
+                <ul class="navbar-nav gap-2">
+                    <li class="nav-item"><a href="index.html" class="nav-link"><i class="bi bi-house"></i> home</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link"><i class="bi bi-shop-window"></i> products</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link"><i class="bi bi-file-earmark-person"></i> about</a></li>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" style="color: var(--bs-nav-link-color);">
+                          Partners
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Nike</a></li>
+                          <li><a class="dropdown-item" href="#">Adidas</a></li>
+                          <li><a class="dropdown-item" href="#">Puma</a></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" style="color: var(--bs-nav-link-color);">
+                          Social Media
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-instagram"></i> instagram</a></li>
+                          <li><a class="dropdown-item" href="mailto:oussqas2002@gmail.com"><i class="bi bi-envelope-at"></i> Gmail</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-threads"></i> Thread</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item"><a href="log-in.html" class="nav-link active"><i class="bi bi-person-circle"></i> My Account</a></li>
+                    <li class="nav-item" id="dark"><a href="#" class="nav-link"><i class="bi bi-cart"></i> My Cart</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+<section class="">
+    <div class="px-4 px-md-5 text-center text-lg-start">
+      <div class="container">
+        <div class="row gx-lg-5 align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h1 class="my-5 display-3 fw-bold ls-tight">
+              The best offers <br />
+              <span class="text-primary">for you</span>
+            </h1>
+            <p style="color: #757f8e">
+                Step onto the field with confidence.
+                 Log in to OUSSAMA STORE for an immersive experience tailored to elevate your game:
+                  from cutting-edge technology to expert advice.
+            </p>
+          </div>
+  
+          <div class="col-lg-6 ">
+            <div class="card">
+              <div class="card-body px-md-5">
+                <form class="was-validated">
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1">First name :</label>
+                        <input type="text" id="form3Example1" class="form-control" required>
+                        <div class="valid-feedback">Looks good!</div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example2">Last name :</label>
+                        <input type="text" id="form3Example2" class="form-control" required/>
+                        <div class="valid-feedback">Looks good!</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1">Email :</label>
+                        <input type="email" id="form3Example1" class="form-control" required/>
+                        <div class="valid-feedback">Email confirmed!</div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1">phone mobile :</label>
+                        <input type="tel" id="form3Example1" class="form-control" pattern="[0][5-6-7][0-9]{8}" minlength="10" maxlength="10" required/>
+                        <div class="valid-feedback">Phone number confirmed!</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4" >
+                      <div class="form-outline" id="form1">
+                        <label class="form-label" for="pass1">Your password :</label>
+                        <input type="password" id="pass1" class="form-control" required/>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline" id="form2">
+                        <label class="form-label" for="pass2">Confirm password:</label>
+                        <input type="password" id="pass2" class="form-control" required/>
+                        <div class="valid-feedback" style="display: none;" id="display">passwords are correct !</div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1">year of birth :</label>
+                        <input type="number" id="form3Example1" class="form-control" required/>
+                        <div class="valid-feedback">year confirmed!</div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1">month :</label>
+                        <input type="text" id="form3Example1" class="form-control" required/>
+                        <div class="valid-feedback">month confirmed!</div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1">day :</label>
+                        <input type="number" id="form3Example1" class="form-control"required/>
+                        <div class="valid-feedback">day confirmed!</div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" required/>
+                    <label class="form-check-label" for="form2Example33">
+                      <div class="valid-feedback">checked!</div>
+                      by clicking here , I agree that i have read and accepted the <span style="color: blue;">terms of use</span> and <span style="color: rgb(53, 53, 252);">privacy policy</span
+                    </label>
+                  </div>
+  
+                  <button type="submit" class="btn btn-primary btn-block mb-4">
+                    Sign up
+                  </button>
+                  <div class="text-center">
+                        already have an account?
+                        <a href="log-in.html" class="text-decoration-none">log in now ?</a>
+                    </div>
+                  
+                  <div class="text-center">
+                    <p>or sign up with:</p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-facebook"></i>
+                    </button>
+  
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-google"></i>
+                    </button>
+  
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-twitter"></i>
+                    </button>
+  
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="bi bi-github"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    </div>
+    <script>
+    
+    var pass1 = document.getElementById("pass1");
+    var pass2 = document.getElementById("pass2");
+    let display = document.getElementById("display")
+
+      pass2.addEventListener("keyup",() => {
+        if (pass1 != "" && pass2 != ""){
+          if (pass1.value == pass2.value){
+            display.style.display = "block"
+          }
+          else{
+            display.style.display = "none"
+          }
+        }
+      })
+    
+    
+    </script>
+</body>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="bootstrap.js"></script>
+</html>
